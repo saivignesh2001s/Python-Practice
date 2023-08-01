@@ -1,0 +1,20 @@
+complexity
+simple addition of two nums=>
+Total number of iterations O(1) constant time complexity
+operation runs in constant time
+check order or even=>operation runs in constant time
+find square(number)
+
+O(n) operations
+varies linearly with input
+check_primeO(n)
+O(n/2)
+
+finding maxval
+finding factorial of a given number
+
+
+O(n^2)o(n*m)
+nested for loop
+combination of for loop
+all prime numbers within that range
