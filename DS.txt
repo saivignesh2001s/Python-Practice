@@ -1,0 +1,137 @@
+Fundamental data structures
+    Linked list
+    Stack 
+    Queue
+
+over view of data structures
+=> a way to organise information in such a way that you can do useful things with it    
+Complexity
+=>performing operations on information
+=>use of data structures helps perform operations efficiently
+
+DS
+=>make common operations fast
+=>make difficult ops possible
+=>space efficent as possible
+=>DS and A go hand in hand
+
+Application
+
+=>set datastructure containment ops
+=>hash tables look up tables
+=>stack recently performed operation
+=>Index suffix tree
+=>Graphs social networking sites
+
+Data structures
+concrete representation of data from the point of view of an implementor
+
+abstract data types
+mathematical models of data types,where data type is defined by how it is used
+(from the point of view of the user)
+
+measure of performance
+
+efficiency for different algorithms
+time
+(in terms of no. of operations)
+space(memory,disk space)
+(best possible use of available space)
+network
+(overall network bandwidth)
+
+algo efficient when use fewer resources
+Performance -measure in terms of complexity
+measure of how res req change as the size of prob getting larger
+
+higher complexity=>lower the performance
+exact relationship=>depends on the algorithm
+
+Basic operations
+read write assignment test
+take worst case scenario
+
+big o notation
+complexity of an algorithm
+O(1) constant time complexity same amount of time for any no. of inputs
+O(N) increases linearly as N increases
+O(N^2) increases quadratically as N increases
+Lower order and constants do not matter
+
+algo is quick or slow
+O(1)<O(logN)<O(N)<O(N^2)<O(N^3)
+
+
+Linked list
+contains head and field data and next
+list data structures 
+store multiple elements as a list
+supported in all high programming languages(ArrayLists in Java is about this only)
+
+node=>data and reference to next node(it will be pointers in languages supporting them)
+
+Adding a new node in a list
+via head so you need to iterate the list fully if you insert in end O(N)
+At beginning O(1)
+At middle also you can add O(N)
+
+Search an element in a list
+if at first O(1)
+no match O(N)
+
+deleting nodes in a list
+search for an element in the list
+if at first 
+makes the head to point b
+and remove a
+if at last
+iterate and compare the data till last
+and make element before to point null
+if at middle
+iterate and compare data till it find
+and make element before the removed point to its after it
+
+reversal of linked list(imp programming qn)
+two-three pointers we need
+
+count the number of nodes O(n)
+initiate counter when creating linked list O(1)
+otherwise
+initiate count=0
+increment the count by 1
+iterate till the next is null 
+
+
+An introduction to stacks
+Last in first out
+Push O(1)--> adding an element on the top of the stack
+Pop O(1)-->removing an element on the top of the stack
+Peek-->read what it is in the top of the stack
+
+
+complexity of the stack operations
+ISEMPTY O(1) ->to check the stack currently has any elements
+ISFULL O(1)-> to check the stack reached full capacity
+sizeO(1)->No. of elements present in the stack
+
+implementing undo is stack operation
+infix to postfix
+
+An introduction to queues
+end of the queue and removed from the beginning
+First in first out 
+enqueue-- adding element to the end of the queue
+dequeue-- adding element to the beginning of the queue
+Peek--Peek at the first element in the queue
+Offer--Adds to a queue if space is available
+is empty or is full
+
+circular queue
+queue complexity
+enqueue and dequeue O(1) if you have two pointers
+isempty and isfull also takes 1
+space complexity O(N)
+
+
+
+
