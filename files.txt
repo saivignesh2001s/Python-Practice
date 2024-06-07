@@ -1,0 +1,36 @@
+1 Objected Oriented Concepts-S1
+2 Relational Databases-S1
+3 Oracle Sql-S1
+4 HTML5 and CSS3-S1
+5 NoSql-S1
+6 Mongodb Development-S1
+7 Javascript-S1
+8 Javascript-S2
+9 Typescript-S1
+10 Angular 10-S1
+11 Cloud Fundamentals-S1
+12 Git-S1
+13 Jira-S1
+14 Jenkins-S1
+15 Devops Essentials-S1
+16 TDD For Angular-S1
+17 .Net Microservices-S1
+18.AWS
+
+1  30 June 2022
+2  05 July 2022
+3  11 July 2022
+4  14 July 2022
+5  15 July 2022
+6  16 July 2022
+7  23 July 2022
+8  25 July 2022
+9  28 July 2022
+10 03 Aug 2022
+11 25 Nov 2022
+12 25 Nov 2022
+13 28 Nov 2022
+14 28 Nov 2022
+15 03 Nov 2022
+16 01 Dec 2022
+17 08 Dec 2022
